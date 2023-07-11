@@ -1,0 +1,25 @@
+:root {
+    --badgeColor: #65A4EC;
+}
+
+.badge {
+    display: flex;
+    position: absolute;
+}
+
+.badgeContent {
+    content: '';
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -.3rem;
+    background-color: var(--badgeColor);
+    border-radius: 999%;
+    min-width: .7rem;
+    min-height: .7rem;
+    height: .7rem;
+    margin: 1.5px;
+    padding: 1.5px;
+    font-size: 0.8rem;
+}
